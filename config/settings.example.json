@@ -1,0 +1,21 @@
+{
+  "port": 18765,
+  "default_permission_mode": "auto",
+  "approval_policy": "remote_smart",
+  "approval_timeout_seconds": 95,
+  "default_project_id": "",
+  "workspace_dir": "",
+  "device_name": "My-PC",
+  "connection_mode": "fixed",
+  "model": "",
+  "prevent_sleep": true,
+  "tunnel_mode": "external",
+  "named_tunnel_token": "",
+  "external_public_url": "",
+  "cloudflared_path": "",
+  "message_dispatch_mode": "native_first",
+  "screen_fps": 2,
+  "screen_quality": 65,
+  "screen_scale": 0.75,
+  "agy_path": ""
+}

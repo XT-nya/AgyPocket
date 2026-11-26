@@ -1,0 +1,9 @@
+{
+  "command": "node",
+  "args": [
+    "server.mjs"
+  ],
+  "description": "Local loopback agentapi bridge for AgyPocket mobile workbench",
+  "display_name": "AgyPocket Bridge",
+  "restart_policy": "always"
+}

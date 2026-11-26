@@ -1,0 +1,6 @@
+{
+  "name": "agy-pocket-bridge",
+  "displayName": "AgyPocket Bridge (手机联动与远程审批)",
+  "version": "1.0.0",
+  "description": "Official Antigravity Sidecar & Hooks bridge enabling AgyPocket mobile control, shared projects, model/effort selection, and remote tool approvals."
+}

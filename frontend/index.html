@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="color-scheme" content="dark light" />
+    <script>
+      try {
+        var s = localStorage.getItem("agypocket-color-scheme") || "dark";
+        document.querySelector('meta[name="color-scheme"]').content = s;
+        document.documentElement.dataset.theme = s === "light" ? "light" : (s === "dark" ? "dark" : "system");
+        var dpRaw = localStorage.getItem("agypocket-display-prefs");
+        if (dpRaw) {
+          var dp = JSON.parse(dpRaw);
+          var presets = {
+            compact: { gap: "0.45rem", padX: "0.5rem", bx: "0.68rem", by: "0.45rem", maxW: "96%", pm: "0.28em" },
+            normal: { gap: "0.7rem", padX: "0.75rem", bx: "0.85rem", by: "0.6rem", maxW: "91%", pm: "0.4em" },
+            comfortable: { gap: "1rem", padX: "1rem", bx: "1rem", by: "0.75rem", maxW: "86%", pm: "0.5em" }
+          };
+          var p = presets[dp.density] || presets.compact;
+          var r = document.documentElement.style;
+          document.documentElement.dataset.density = presets[dp.density] ? dp.density : "compact";
+          r.setProperty("--chat-gap", p.gap);
+          r.setProperty("--chat-pad-x", p.padX);
+          r.setProperty("--bubble-pad-x", p.bx);
+          r.setProperty("--bubble-pad-y", p.by);
+          r.setProperty("--bubble-max-w", p.maxW);
+          r.setProperty("--prose-p-margin", p.pm);
+          if (typeof dp.fontSize === "number") r.setProperty("--chat-font-size", dp.fontSize + "px");
+          if (typeof dp.lineHeight === "number") r.setProperty("--chat-line-height", String(dp.lineHeight));
+          if (typeof dp.letterSpacing === "number") r.setProperty("--chat-letter-spacing", dp.letterSpacing + "em");
+        }
+      } catch (e) {}
+    </script>
+    <meta name="theme-color" content="#0a0c12" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+    <title>AgyPocket · 反重力远程终端</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

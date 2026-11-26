@@ -1,0 +1,42 @@
+{
+  "agy-pocket-bridge-hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ~/.gemini/config/plugins/agy-pocket-bridge/hooks/hook_relay.mjs PreToolUse",
+            "timeout": 120
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ~/.gemini/config/plugins/agy-pocket-bridge/hooks/hook_relay.mjs PostToolUse",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "PreInvocation": [
+      {
+        "type": "command",
+        "command": "node ~/.gemini/config/plugins/agy-pocket-bridge/hooks/hook_relay.mjs PreInvocation",
+        "timeout": 5
+      }
+    ],
+    "Stop": [
+      {
+        "type": "command",
+        "command": "node ~/.gemini/config/plugins/agy-pocket-bridge/hooks/hook_relay.mjs Stop",
+        "timeout": 5
+      }
+    ]
+  }
+}
