@@ -33,10 +33,6 @@
 ：<img width="240" height="538" alt="6694966ec61d8c0a953ec6a446ed528e" src="https://github.com/user-attachments/assets/da5261f6-2e90-462e-8fbf-f46eec903d93" />
 <img width="240" height="538" alt="Screenshot_20261126_144733_com_agypocket_app_Mai" src="https://github.com/user-attachments/assets/145cb323-8ae2-44c3-9ebe-7a24f8b0551a" />
 
-> - `docs/screenshots/tab1-workbench.png` — Tab 1：Antigravity 双向联动工作台
-> - `docs/screenshots/tab2-desktop-remote.png` — Tab 2：桌面遥控台与鼠标高阶操控
-> - `docs/screenshots/android-qr-scan.png` — 原生 Android 扫码配对与三指快捷菜单
-
 ---
 
 ## 🤖 给 AI 助手的自动化安装与配置协议（Agent Setup Protocol）
