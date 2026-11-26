@@ -26,8 +26,8 @@
 ---
 
 ## 🖼️ 界面预览
-<img width="240" height="2412" alt="Screenshot_20261126_133239_com_tencent_mobileqq_" src="https://github.com/user-attachments/assets/c6a7e2ee-2023-4e8a-8449-9633ba682311" />
-<img width="240" height="2412" alt="Screenshot_20261126_132105_com_agypocket_app_Mai" src="https://github.com/user-attachments/assets/d9f89720-31a1-4069-9e52-c9a0ee580f9b" />
+<img width="240" height="536" alt="Screenshot_20261126_133239_com_tencent_mobileqq_" src="https://github.com/user-attachments/assets/c6a7e2ee-2023-4e8a-8449-9633ba682311" />
+<img width="240" height="536" alt="Screenshot_20261126_132105_com_agypocket_app_Mai" src="https://github.com/user-attachments/assets/d9f89720-31a1-4069-9e52-c9a0ee580f9b" />
 <img width="240" height="536" alt="11月26日 (2)" src="https://github.com/user-attachments/assets/64df0296-6fbd-4e04-a623-db2b37432a7b" />
 
 <img width="240" height="538" alt="11月26日 (1)" src="https://github.com/user-attachments/assets/f4ae3b7b-1982-47fe-a695-9ab0199fee48" />
