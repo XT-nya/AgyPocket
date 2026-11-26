@@ -27,14 +27,12 @@
 
 ## 🖼️ 界面预览
 <img width="240" height="536" alt="Screenshot_20261126_133239_com_tencent_mobileqq_" src="https://github.com/user-attachments/assets/c6a7e2ee-2023-4e8a-8449-9633ba682311" />
-<img width="240" height="536" alt="Screenshot_20261126_132105_com_agypocket_app_Mai" src="https://github.com/user-attachments/assets/d9f89720-31a1-4069-9e52-c9a0ee580f9b" />
+<img width="240" height="536" alt="11月26日3" src="https://github.com/user-attachments/assets/71a34d8f-c3a8-4134-87d6-4a65da2ad1af" />
 <img width="240" height="536" alt="11月26日 (2)" src="https://github.com/user-attachments/assets/64df0296-6fbd-4e04-a623-db2b37432a7b" />
-
 <img width="240" height="538" alt="11月26日 (1)" src="https://github.com/user-attachments/assets/f4ae3b7b-1982-47fe-a695-9ab0199fee48" />
+：<img width="240" height="538" alt="6694966ec61d8c0a953ec6a446ed528e" src="https://github.com/user-attachments/assets/da5261f6-2e90-462e-8fbf-f46eec903d93" />
+<img width="240" height="538" alt="Screenshot_20261126_144733_com_agypocket_app_Mai" src="https://github.com/user-attachments/assets/145cb323-8ae2-44c3-9ebe-7a24f8b0551a" />
 
-
-
-> 截图资源统一预留在 [`docs/screenshots/`](docs/screenshots/README.md) 目录（待补充实机截图）：
 > - `docs/screenshots/tab1-workbench.png` — Tab 1：Antigravity 双向联动工作台
 > - `docs/screenshots/tab2-desktop-remote.png` — Tab 2：桌面遥控台与鼠标高阶操控
 > - `docs/screenshots/android-qr-scan.png` — 原生 Android 扫码配对与三指快捷菜单
